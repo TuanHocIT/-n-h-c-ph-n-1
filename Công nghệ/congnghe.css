@@ -1,0 +1,213 @@
+.body-introduce {
+  width: 100%;
+  height: 2500px;
+  background-color: #fff;
+}
+.introduce-produce {
+  width: 100%;
+  height: 1500px;
+  background: url(./img/main-bg.jpg.webp);
+  background-size: 100% 1500px;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+}
+.buil-cn {
+  width: 70%;
+  height: 2400px;
+  background-color: white;
+  margin: auto;
+  padding: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+.linked {
+  background-color: rgb(240, 240, 240);
+  padding: 15px;
+}
+.linked a {
+  color: black;
+  text-decoration: underline;
+}
+.linked span {
+  font-size: 12px;
+}
+.title-produce {
+  padding: 30px 0;
+}
+.title-produce h1 {
+  font-size: 40px;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+.slideshow-container {
+  width: 100%;
+  height: 450px;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Định dạng cho các slide */
+.slides {
+  display: flex;
+  width: 400%; /* 10 ảnh nên chiều rộng tổng là 4 lần 400% */
+  animation: slide 20s infinite; /* Thời gian toàn bộ chu kỳ là 30 giây */
+  overflow: hidden;
+}
+
+/* Định dạng cho từng slide */
+.slide {
+  min-width: 25%; /* Mỗi slide chiếm 25% chiều rộng của vùng chứa */
+  height: 100%;
+}
+
+/* Định dạng cho ảnh trong slide */
+.slide img {
+  width: 100%; /* Ảnh chiếm toàn bộ chiều rộng của slide */
+  height: 100%; /* Ảnh chiếm toàn bộ chiều cao của slide */
+  object-fit: cover; /* Cắt ảnh để vừa với khung */
+}
+
+/* Hiệu ứng trượt tự động */
+@keyframes slide {
+  0%,
+  20% {
+    transform: translateX(0);
+  }
+  20%,
+  40% {
+    transform: translateX(-25%);
+  }
+  40%,
+  60% {
+    transform: translateX(-50%);
+  }
+  60%,
+  80% {
+    transform: translateX(-75%);
+  }
+  80%,
+  100% {
+    transform: translateX(-75%);
+  }
+}
+.title-cn {
+  margin-top: 50px;
+}
+.title-cn h1 {
+  color: #3333cc;
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+}
+.menu-cn {
+  position: relative;
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  margin-bottom: 5rem;
+  margin-top: 2rem;
+  padding: 2rem 0;
+  height: 220px;
+  overflow: hidden;
+  box-shadow: 5px 5px 15px #eeeeee;
+}
+.menu-cn::before {
+  content: "";
+  position: absolute;
+  left: -40px;
+  top: 0;
+  height: 100%;
+  width: 365px;
+  background: url(./img/item-hover-bg.jpg) no-repeat left top;
+  transform: skewX(-20deg);
+  transition: 0.4s ease;
+}
+.menu-cn:hover::before {
+  width: 120%;
+}
+.menu-cn-name {
+  width: 35%;
+  color: #fff;
+  text-align: center;
+  padding-right: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 1;
+  font-size: 2rem;
+  z-index: 1;
+}
+.menu-cn-name a {
+  color: #fff;
+}
+.menu-cn-info {
+  width: 65%;
+  padding: 0 3.5rem;
+  font-size: 1.6rem;
+  color: #000;
+  z-index: 6;
+}
+.menu-cn-info p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.menu-cn-info a {
+  border-top: 3px solid #b4bcd1;
+  letter-spacing: 1px;
+  color: #fff;
+  padding: 1rem 2rem;
+  background: linear-gradient(to bottom, #01327f 20%, #0088d4 100%);
+  position: absolute;
+  left: 800px;
+  top: 150px;
+}
+.menu-cn:hover .menu-cn-info p {
+  color: #fff;
+}
+.stt {
+  display: flex;
+}
+.stt1 {
+  padding: 0.5rem 1rem;
+  border: 1px solid #000;
+  margin-right: 4px;
+  cursor: pointer;
+}
+.stt1 a {
+  color: #000;
+}
+.stt2 {
+  background-color: #000;
+}
+.stt2 a {
+  color: #fff;
+}
+.tintuc {
+  width: 100%;
+  height: 10%;
+}
+.tintuc h1 {
+  font-size: 30px;
+  font-weight: 700;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.tintuc ul {
+  display: flex;
+  justify-content: space-between;
+}
+.tintuc ul li {
+  background: black;
+  color: white;
+  width: 150px;
+}
+.tintuc ul li a {
+  color: rgb(226, 209, 209);
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.tintuc ul li a:hover {
+  color: white;
+}

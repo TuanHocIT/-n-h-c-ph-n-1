@@ -1,0 +1,141 @@
+.body-introduce {
+  width: 100%;
+  height: 3500px;
+  background-color: rgba(184, 178, 178, 0.1);
+}
+.introduce-produce {
+  width: 100%;
+  height: 1500px;
+  background: url(./img/bg-accessory.jpg.webp);
+  background-size: 100% 1000px;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+}
+.produce-motor-bike {
+  width: 70%;
+  height: 3350px;
+  background-color: white;
+  margin: auto;
+  padding: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+.linked {
+  background-color: rgb(240, 240, 240);
+  padding: 15px;
+}
+.linked a {
+  color: black;
+  text-decoration: underline;
+}
+.linked span {
+  font-size: 12px;
+}
+.title-produce {
+  padding: 30px 0;
+}
+.title-produce h1 {
+  font-size: 40px;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+.title-produce p {
+  font-size: 18px;
+  line-height: 30px;
+  word-spacing: 2px;
+}
+.node-title H3 {
+  text-align: center;
+  margin: 50px;
+}
+.banner-produce {
+  width: 100%;
+  height: 320px;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 40px;
+}
+.banner-produce h1 {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 4rem;
+  font-weight: bold;
+  padding-top: 130px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.banner-produce h1:hover {
+  background: rgba(0, 0, 0, 0.4);
+  transform: scale(1.3);
+  transition: 0.5s ease-in-out;
+}
+.tt-phutung {
+  margin-bottom: 50px;
+}
+.tt-phutung h3 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+.box-tt {
+  display: flex;
+}
+.box-tt-pt {
+  cursor: pointer;
+  position: relative;
+  margin-left: 20px;
+}
+.box-title {
+  position: absolute;
+  width: 80%;
+  height: 160px;
+  background-color: rgba(0, 0, 0, 0.6);
+  top: 18px;
+  left: 22px;
+  display: none;
+}
+
+.box-tt-pt h2 {
+  text-align: center;
+  padding-top: 60px;
+  font-size: 2rem;
+  color: #fff;
+  font-weight: bold;
+  padding: 60px 10px;
+}
+.box-tt-pt:hover .box-title {
+  display: block;
+}
+.tintuc {
+  width: 100%;
+  height: 10%;
+}
+.tintuc h1 {
+  font-size: 30px;
+  font-weight: 700;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.tintuc ul {
+  display: flex;
+  justify-content: space-between;
+}
+.tintuc ul li {
+  background: black;
+  color: white;
+  width: 150px;
+}
+.tintuc ul li a {
+  color: rgb(226, 209, 209);
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.tintuc ul li a:hover {
+  color: white;
+}

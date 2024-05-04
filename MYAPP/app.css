@@ -1,0 +1,151 @@
+.main {
+  overflow: hidden;
+  min-height: 280vh;
+}
+.main-content {
+  width: 100%;
+  height: 280vh;
+  background-image: url(./img/mainvisual.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+}
+.Boxcontent {
+  width: 70%;
+  height: 260vh;
+  background: white;
+  margin: auto;
+  border-top-right-radius: 2%;
+  border-top-left-radius: 2%;
+}
+.My-app {
+  display: flex;
+}
+.My-yamaha {
+  width: 50%;
+  height: 50px;
+}
+.My-connect {
+  width: 50%;
+  height: 50px;
+  background-color: #3333cc;
+  border-top-right-radius: 20px;
+}
+.My-yamaha h3 {
+  color: #3333cc;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.My-connect h3 {
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.logo-title-yamaha {
+  display: flex;
+  margin-bottom: 50px;
+}
+.logo-title-yamaha img {
+  width: 120px;
+  height: 120px;
+  margin: 70px 30px 0px 70px;
+}
+.logo-title-yamaha h1 {
+  font-size: 5rem;
+  color: #3333cc;
+  padding-top: 105px;
+  font-weight: 700;
+}
+.Tn-app {
+  display: flex;
+  width: 100%;
+  height: 500px;
+}
+.title-tn {
+  width: 50%;
+  height: 100%;
+  margin-left: 70px;
+}
+.title-tn h3 {
+  font-size: 1.8rem;
+  padding-bottom: 20px;
+}
+.title-tn p {
+  opacity: 0.8;
+  font-size: 1.6rem;
+  word-spacing: 3px;
+  line-height: 1.5;
+}
+.img-tn {
+  width: 50%;
+  height: 100%;
+  padding-left: 20px;
+}
+.dowload-hd {
+  margin-top: 40px;
+}
+.Lienket {
+  width: 230px;
+  height: 60px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  border-radius: 30px;
+  border: 2px solid #3333cc;
+  color: #3333cc;
+  cursor: pointer;
+}
+.dowload {
+  background-color: #3333cc;
+  color: white;
+  position: relative;
+}
+.dowload::after {
+  width: 224px;
+  height: 54px;
+  border-radius: 30px;
+  position: absolute;
+  border: 2px solid #fff;
+  content: "";
+  top: 0;
+  left: 0;
+}
+iframe {
+  margin-left: 30px;
+  margin-top: 50px;
+}
+.link-dowload {
+  display: flex;
+  width: 100%;
+  height: 300px;
+  margin: 70px 260px;
+  position: relative;
+}
+.qr-code img {
+  padding-right: 25px;
+  border-right: 2px solid black;
+}
+.app-dowload {
+  display: flex;
+  flex-direction: column;
+  padding-top: 7px;
+  margin-left: 25px;
+}
+.app-dowload img {
+  margin-top: 15px;
+  padding-left: 20px;
+}
+.qr-code::after {
+  content: "Or";
+  background-color: white;
+  position: absolute;
+  border-radius: 100%;
+  font-size: 2rem;
+  top: 85px;
+  left: 205px;
+  padding: 4px;
+}
